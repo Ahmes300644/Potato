@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Classifier for Dogs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emotion Classifier for Dogs</h1>
+        <p>Upload a picture of a dog to classify its emotion</p>
+    </header>
+    <main>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="imageUpload" accept="image/*" capture="camera">
+            <button type="submit">Classify Emotion</button>
+        </form>
+        <div id="resultContainer">
+            <h2>Classification Result</h2>
+            <p id="resultText">Please upload an image to classify</p>
+            <img id="classifiedImage" src="#" alt="Classified Image">
+        </div>
+    </main>
+    <footer>
+<p> Information and Communication Engineering
+</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
